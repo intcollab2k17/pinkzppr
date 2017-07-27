@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body {
+	background:url("../img/pz_bg.jpg");
+			background-position: center center;
+			background-repeat:  repeat-y;
+			background-attachment: fixed;
+			background-size: cover;
+}
+.logo {
+    background-color: transparent;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.text-small {
+    color: #fff;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.container.human-background {
+/*     background-image: url("../img/image_bg_02.png");
+    background-size: 100% auto; */
+	background-repeat:no-repeat;	
+}
+.image-background > img {
+    margin: 0 auto;
+    width: 100%;
+}
+.registration {
+    text-align: center;
+}
+.form-input .store {
+    margin: 30px 0;
+}
+.store::after {
+    top: -10px;
+    color: #fff;
+    content: "Please click the kind of phone you are using";
+    font-family: quicksand;
+    font-size: 14px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.form-input {
+    margin: 0 0 10px;
+}
+form.registration {
+    text-align: center;
+}
+.form-input .store .app-store, .form-input .store .play-store {
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.form-input .store .app-store > img, .form-input .store .play-store > img {
+    background-color: transparent;
+    display: block;
+    padding: 8px 11px;
+}
+.form-layout{
+	margin-top:-160px;
+}
+.label-inputs{
+	color:#fff;
+}
+.form-submit {
+    margin: 0 0 10px;
+}
+.pinkzipper-submit {
+    background-color: #ddd;
+    font-family: "Quicksand",sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 50px;
+}
+#email, #name {
+    font-family: "Quicklsand",sans-serif;
+    font-size: 16px;
+    height: 45px;
+    width: 270px;
+}
